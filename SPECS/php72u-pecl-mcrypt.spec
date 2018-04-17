@@ -10,7 +10,7 @@
 %global gh_date     20180415
 
 Summary: Extension to work with the mcrypt 
-Name: %{pecl_name}
+Name: %{php_base}-%{pecl_name}
 Version: 1.0.1
 %if 0%{?gh_date:1}
 Release: git%{gh_short}.1.MyHeritage.ius%{?dist}
