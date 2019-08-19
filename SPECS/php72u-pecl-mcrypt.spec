@@ -30,7 +30,7 @@ URL: http://pecl.php.net/package/%{pecl_name}
 BuildRequires: pear1u
 BuildRequires: %{php_base}-devel
 BuildRequires: libmcrypt
-#BuildRequires: libmcrypt-devel.x86_64
+BuildRequires: libmcrypt-devel.x86_64
 
 %if 0%{?fedora} < 24
 Requires(post): pear1u
